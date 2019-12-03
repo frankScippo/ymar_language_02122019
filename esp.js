@@ -1,7 +1,7 @@
 /** LEGENDA **/
 /* 
 
-TESTO FORMATTABILE:
+TESTO FORMATTABILE: 
 
 GRASSETTO: doppio asterisco agli estremi (es. **PAROLE IN GRASSETTO**)
 A CAPO: scrivere puntoacapo per andare a capo
