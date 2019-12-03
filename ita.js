@@ -31,7 +31,7 @@ const language = {
             info: "Info",
             markerAR: "Diventa partner",
             close: "Chiudi menu",
-            // developer options
+            /* DEVELOPER OPTIONS */
             options: "..."
         },
         /* TESTO FORMATTABILE */
@@ -340,7 +340,6 @@ const language = {
                     link: 'https://play.google.com/store/apps/details?id=com.IBSSRL.YouMeAR'
                 }
             ],
-
         },
         tuts: [
             {
@@ -402,23 +401,32 @@ const language = {
         description: {
             general1: 'Stato',
             general2: 'Qualità',
-            general3: 'Data caricamento',
-            stats1: 'Inquadramenti totali',
-            stats2: 'Inquadramenti di questo mese',
-            stats3: 'Inquadramenti del mese scorso',
-
+            general3: 'Caricato il',
+            stats1: 'Totali',
+            stats2: 'Questo mese',
+            stats3: 'Mese scorso',
+            stats4: 'Click sul link',
+            int_description1: 'Quante volte un utente ha cliccato sulla funzione "LINK".',
+            stats5: 'Schermo intero',
+            int_description2: 'Numero di visualizzazioni a schermo intero.',
+            checkout1: 'Inquadramenti rimanenti',
+            checkout2: 'Ore rimanenti',
+            int_checkout1: 'Numero di inquadramenti e/o ore rimanenti alla scadenza del marker.',
             deleteMarker: 'Cancella Marker'
         },
-
         details: "Dettagli",
         active: "Attiva",
         deactive: "Disattiva",
         delete: "Elimina",
-
         enabled: 'Attivo',
         disabled: 'Disattivo',
-        title_description: ['Info Generali', 'Statistiche'],
+        title_description: {
+            general: 'Info Generali',
+            recogs: 'Inquadramenti',
+            interaction: 'Statistiche',
+            checkout: 'Traffico residuo'
+        },
         noName: 'Senza Nome',
         nothing: 'nessun marker ... '
     }
-}
+}; 
