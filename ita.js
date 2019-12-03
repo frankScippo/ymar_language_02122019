@@ -429,4 +429,4 @@ const language = {
         noName: 'Senza Nome',
         nothing: 'nessun marker ... '
     }
-};
+}; 
