@@ -14,68 +14,68 @@ ricordati di antecederle lo slash verso sinistra (es. \"ciao come stai\")
 */
 
 const language = {
-    lang: "English",
+    lang: "Francais",
     index: {
-        loading_message: "Uploading",
-        nuVersion: "New version!",
+        loading_message: "Mise en ligne",
+        nuVersion: "Nouvelle version!",
         sideMenu: {
-            user: "Account",
-            signin: ["Login", "Registration", "Log Out"],
-            home: "Home",
+            user: "Compte",
+            signin: ["Connexion", "Registration", "Déconnexion"],
+            home: "Accueil",
             contact: "Contacts",
-            help: "About YouMeAR",
-            reset: "Update notices",
+            help: "Qu'est-ce que YouMeAR",
+            reset: "Rétablir des notes",
             resetApp: "Reset APP",
-            reload: "Update page",
-            privacy: "Privacy",
-            info: "Info",
-            markerAR: "Sign in",
-            close: "Close menu",
+            reload: "Mettre à jour la page",
+            privacy: "Sécurité",
+            info: "Information",
+            markerAR: "Devenir partenaire",
+            close: "Fermer le menu",
             /* DEVELOPER OPTIONS */
             options: "..."
         },
         /* TESTO FORMATTABILE */
-        sideMenuAction: ['New puntoacapo Marker', "Marker puntoacapo List", "Use puntoacapo Camera"]
+        sideMenuAction: ['nouveau puntoacapo Marque', "List puntoacapo des Marque", "Utiliser puntoacapo l'appareil photo"]
         /* FINE TESTO FORMATTABILE */
     },
     createmedia: {
-        photo: "Take a photo",
-        video: "Record a video",
-        share: "Share"
+        photo: "Prendre une photo",
+        video: "Enregistrer une video",
+        share: "Publier"
     },
     user: {
-        userChoose1: ["Continue as", "USER"],
-        userChoose2: ["Continue as", "EXPERT"],
-        progate1: ["For registered users", "LOGIN"],
-        progate2: ["For new users", "START NOW"],
+        userChoose1: ["Suivre comme", "UTILISATEUR"],
+        userChoose2: ["Suivre comme", "EXPERT"],
+        progate1: ["Par utilisateurs enregistrés", "CONNEXION"],
+        progate2: ["Par nouveaux utilisateurs", "COMMENCER"],
     },
     signin: {
-        title: "Sign in to",
+        title: "Connecter à",
         subtitle: "YouMeAR!",
-        button: "Sign in",
+        button: "Connexion",
         form: [
             {
-                type: "email",
-                name: "email",
-                label: "Email",
+                type: "adresse e-mail",
+                name: "adresse e-mail",
+                label: "Adresse e-mail",
                 pro: false
             },
             {
                 type: "password",
                 name: "password",
                 label: "Password",
-                pro: false
+                pro: "faux"
             },
         ]
     },
     signup: {
-        title: "Create an Account",
+        title: "Créer un compte",
         subtitle: "YouMeAR!",
-        button: ["Next", "Complete the registration"],
-        policyInteraction: "LEARN MORE...",
-        policyTitle: "agree to general terms and conditions of service.",
-        policyDescription: "In order to complete your subscription to the website and have free access to the Community, please read carefully general terms and conditions about services' use. During the subscription and the registration of your personal information, you must confirm you have come of age and you have read general conditions for services offered by the Website. Click here to confirm \"I agree\".",
-        policyDialogTitle: "Read and agree to general terms and conditions",
+        button: ["Suivant", "Compléter the registration"],
+        policyInteraction: "EN SAVOIR PLUS...",
+        policyTitle: "acceptation de conditions d'utilisation de notre service.",
+        policyDescription: "Pour achever le processus d'enregistrement dans le site web et pour accéder gratuitement à la Communité, nous vous demandons de prendre connaissance des conditions d'utilisation de le service. Dans la phase de inscription et registration des votre informationes personelles, vous douvez être majeur et confirmer de avoir connaissance des conditions d\'utilisation de le service du site web. Cliquez ici pour confirmer \"Je accepte\".",
+        policyDialogTitle: "Lire et accepter des terms et conditions générales",
         /* TESTO FORMATTABILE */
         policyDialogDescription: [
             [
@@ -91,16 +91,16 @@ const language = {
                 "description3 puntoacapo description3.1 puntoacapo *ins*description3.2*ins* ... etc ..." // DESCRIZIONE DEL PARAGRAFO
             ],
         ],
-        policyDialogYep: 'I agree',
-        policyDialogNope: 'I refuse',
+        policyDialogYep: 'Je accepte',
+        policyDialogNope: 'Je refuse',
         /* FINE TESTO FORMATTABILE */
-        recTitle: "Have you an account?",
-        actionRecTitle: "Procede with Login",
+        recTitle: "Vous avez un compte?",
+        actionRecTitle: "allez su la page de connexion",
         form: [
             {
                 type: 'text',
                 name: 'name',
-                label: 'Name',
+                label: 'Prénom',
                 pro: false,
                 required: true,
                 page: 1
@@ -108,7 +108,7 @@ const language = {
             {
                 type: 'text',
                 name: 'surname',
-                label: 'Surname',
+                label: 'Name',
                 pro: false,
                 required: true,
                 page: 1
@@ -116,7 +116,7 @@ const language = {
             {
                 type: 'text',
                 name: 'rec_name_business',
-                label: 'Business Name',
+                label: 'Nom de la entreprise',
                 pro: true,
                 required: true,
                 page: 2
@@ -124,7 +124,7 @@ const language = {
             {
                 type: 'text',
                 name: 'rec_VATnumber',
-                label: 'VAT number',
+                label: 'numéro d\'identification TVA',
                 pro: true,
                 required: true,
                 page: 2
@@ -132,7 +132,7 @@ const language = {
             {
                 type: 'mail',
                 name: 'email',
-                label: 'Email',
+                label: 'addresse e-mail',
                 pro: false,
                 required: true,
                 page: 3
@@ -140,7 +140,7 @@ const language = {
             {
                 type: 'password',
                 name: 'password',
-                label: 'Create Password',
+                label: 'Créer Mot de passe',
                 pro: false,
                 required: true,
                 page: 3
@@ -148,78 +148,78 @@ const language = {
             {
                 type: 'password',
                 name: 'password_confirmation',
-                label: 'Confirm password',
+                label: 'Confirmer mot de passe',
                 pro: false,
                 required: true,
                 page: 3
             }
         ]
     },
-    homeTitle1: ["IMAGINE", "CREATE", "ENJOY!"],
+    homeTitle1: ["IMAGINEZ", "CRÉEZ", "AMUSEZ-VOUS!"],
     /* TESTO FORMATTABILE */
-    homeTitle12: "Create your puntoacapo **Augmented Reality puntoacapo FOR FREE!**",
+    homeTitle12: "Créez your puntoacapo **Realitée Augmenteé puntoacapo GRATUITEMENT!**",
     /* FINE TESTO FORMATTABILE */
-    homeTitle2: ["Open", "CAMERA"],
-    homeTitle3: ["Modalità", "MARKERLESS"],
-    homeTitle4: ["How to use", "THE APP"],
-    homeTitleLI: ["", "LogIn"],
-    homeTitleLO: ["", "LogOut"],
+    homeTitle2: ["ouvrir", "APPAREIL PHOTO"],
+    homeTitle3: ["Modalité", "MARKERLESS"],
+    homeTitle4: ["Details d\'utilisation", "APP"],
+    homeTitleLI: ["", "Connexion"],
+    homeTitleLO: ["", "Déconnexion"],
     marker: {
-        title: "Imagine, Create, Enjoy",
+        title: "Imaginez, Créez, Amusez-vous!",
         description: [
             /* TESTO FORMATTABILE */
-            "Frame **your image** with the **camera of your smartphone** and explor the multimedia contents in **Augmented Reality**.",
+          "Encadre les **images** avec le **appareil photo de ton Smartphone** et decouvre   les contenus multimédia en **Realité Augmentée**.",
             /* FINE TESTO FORMATTABILE */
         ],
-        button: "FRAME",
+        button: "ENCADREZ",
         question: {
-            question: 'Do you want to open your camera?',
-            description: "The APP uses Augmented Reality technology for the exploration of virutal contents. For this reason the supervision of an adult is reccommended with minor users. Before starting to use Augmented Reality, please ensure that there are not any obtables, which may be dangerous for the user",
-            yepText: "si",
+            question: 'Est-ce que vous voulez ouvrire l\'appareil photo?',
+            description: "The APP utilise la technologie de la Realité Augmentée pour l'exploration de contenus virtuels. Por cette raison vous reccomandons la surveillance d'adultes avec mineurs. Avant commencer l'utilisation de la Realité Augmentée, veuillez vous assurer que ils ne sont pas obstacles, dangerous pour des utilisateurs",
+            yepText: "oui",
             nopeText: "no"
         }
     },
     placement: {
-        title: "Position your 3D model",
+        title: "Positionner ton modèle 3D",
         description: [
             /* TESTO FORMATTABILE */
-            "Position the **3D model** to admire it with the **camera of your Smarthphone**.",
+            "Positionner le **modèle 3D** pour admire-lui avec l\' **appareil photo de ton Smarthphone**.",
             /* FINE TESTO FORMATTABILE */
         ],
-        button: "POSITION",
+        button: "POSITIONNER",
         question: {
-            question: 'Do you want to open the camera?',
-            description: "The APP uses Augmented Reality technology for the exploration of virutal contents. For this reason the supervision is reccommended with minor users. Before starting to use Augmented Reality, please ensure that there are not any obtables dangerous for the user",
-            yepText: "yes",
+            question: 'Est-ce que vous voulez ouvrire l\'appareil photo?',
+            description: "The APP utilise la technologie de la Realité Augmentée pour l'exploration de contenus virtuels. Por cette raison vous reccomandons la surveillance d'adultes avec mineurs. Avant commencer l'utilisation de la Realité Augmentée, veuillez vous assurer que ils ne sont pas obstacles, dangerous pour des utilisateurs",
+            yepText: "oui",
             nopeText: "no"
         }
     },
     arcamera: {
-        title: "Do you want to have fun wih Augmented Reality?",
-        button1: "Home",
-        button2: "Stay on this page",
-        button3: "Frame the Marker",
-        button4: "How does it work?"
+        title: "Est-ce que vous voulex amuser-vous avec la Realité Augmentée?",
+        button1: "Accueil",
+        button2: "Restez sur cette page",
+        button3: "Encadrer le Marque",
+        button4: "Comment il fonctionne"
     },
     createmarker: {
         preview: {
-            title: 'Preview',
-            subtitle: 'Move the screen of the Smartphone to simulate Augmented Reality.',
-            interaction: 'The interaction starts in',
+            title: 'Aperçu',
+            subtitle: 'Bougez l\ecran de le Smartphone pour simuler la Realité Augmentée.',
+            interaction: 'La interaction commence dans',
             seconds: 's',
-            button: 'Close'
+            button: 'Fermer'
 
         },
         step0: {
-            title: "Name",
-            subtitle: "your Augmented Reality",
-            button: ["Skip", "Next"],
-            placeholder: "Name",
-            noName: "Marker without name"
+            title: "Donnez un nom",
+            subtitle: "pour ta Realité Augmentée",
+            button: ["Sauter", "Suivant"],
+            placeholder: "Nom",
+            noName: "Marque sans nom"
         },
         step1: {
-            title: "Choose the shape",
-            subtitle: "Choose your favorite one",
+            title: "Choise the shape",
+            subtitle: "Choisez votre preferée",
             //geometry: ["Orizzontale", "Verticale", "Quadrato", "Circolare"],
             geometry: [
                 {
@@ -240,7 +240,7 @@ const language = {
                 },
                 {
                     name: 'square',
-                    screenName: 'Square',
+                    screenName: 'Carré',
                     pro: false,
                     ratio: "1/1", // 1:1
                     orientation: 2,
@@ -248,46 +248,46 @@ const language = {
                 },
                 {
                     name: 'circle',
-                    screenName: 'Circle',
+                    screenName: 'Cercle',
                     pro: true,
                     ratio: "1/1", // 1:1
                     orientation: 2,
                     shapeSRC: "",
                 }
             ],
-            button: "Select"
+            button: "Choisir"
         },
         step2: {
-            title: "Upload Image",
-            subtitle: "Upload the image for your Augmented Reality.",
-            button: "Next",
-            image: "Upload image",
-            crop: "Cut"
+            title: "Charger l'image",
+            subtitle: "Charger l'image pour ta Realité Augmentée.",
+            button: "Suivant",
+            image: "Charger l'image",
+            crop: "Couper"
         },
         step3: {
-            title: "Upload video",
-            subtitle: "Upload the video choosen for Augmented Reality.",
-            button: "Next",
-            video: "Upload video",
-            crop: "Cut Video",
+            title: "Charger le vidéo",
+            subtitle: "Charger le video chioisì pour ta Realité Augmentée.",
+            button: "Suivant",
+            video: "Charger le vidéo",
+            crop: "Couper le video",
         },
         step4: {
-            title: "Add link",
-            subtitle: "Link for the interaction when the video ends.",
-            button: "Next",
+            title: "Adjounter le lien",
+            subtitle: "Le lien pour l\'interaction à la fin de le vidéo.",
+            button: "Suivant",
             placeholder: "Link URL",
             prefix: 'https://www.'
         },
         step5: {
-            title: "Set parameters",
-            subtitle: "Set final parameters.",
-            button: "Upload marker",
+            title: "Définir Paramètres",
+            subtitle: "Définir Paramètres finaux.",
+            button: "Charger le marque",
             setting: [
                 {
                     name: "Video Follow",
                     id: "videofollow",
-                    description: "VideoFollow provides full screen video when the marker is not framed.",
-                    action: "I understood",
+                    description: "VideoFollow donnée le vidéo en plein écran sans l'ecranement du marque.",
+                    action: "Entendu",
                     img: setting_img_1, // non cambiare
                     imgc: setting_img_1c, // non cambiare
                     defaultValue: true // non cambiare
@@ -295,17 +295,17 @@ const language = {
                 {
                     name: "Toolbar",
                     id: "toolbar",
-                    description: "Toolbar allows to come back also using devices without physical buttons.",
-                    action: "I understood",
+                    description: "Toolbar permet de revenir aussi avec dispositif sans boutons physiques.",
+                    action: "Entendu",
                     img: setting_img_2, // non cambiare
                     imgc: setting_img_2c, // non cambiare
                     defaultValue: false // non cambiare
                 },
                 {
-                    name: "Toolbar Up",
+                    name: "Toolbarup",
                     id: "toolbarup",
-                    description: "Toolbar Up moves up the toolbar.",
-                    action: "I understood",
+                    description: "Toolbar Up monte la barre d'outils.",
+                    action: "Entendu",
                     img: setting_img_3, // non cambiare
                     imgc: setting_img_3c, // non cambiare
                     defaultValue: false // non cambiare
@@ -313,9 +313,9 @@ const language = {
             ]
         },
         step6: {
-            title: "Creation of the Marker",
-            subtitle: "The creation of the marker will be available in few minuts",
-            done_title: "Done!",
+            title: "Création du Marque",
+            subtitle: "La creation du Marque est disponibile dans qualque minuts",
+            done_title: "Fait!",
             done_subtitle: "The marker is ready for the frame.",
             error_title: "Something goes wrong :(",
             error_subtitle: "It may be a connection issue...",

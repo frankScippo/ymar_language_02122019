@@ -95,14 +95,14 @@ const language = {
         policyDialogNope: 'Rifiuta',
         /* FINE TESTO FORMATTABILE */
         recTitle: "Hai già un account?",
-        actionRecTitle: "vai al Login",
+        actionRecTitle: "Vai al login",
         form: [
             {
                 type: 'text',
                 name: 'name',
                 label: 'Nome',
-                pro: false,
-                required: true,
+                pro: 'false',
+                required: 'true',
                 page: 1
             },
             {
@@ -116,7 +116,7 @@ const language = {
             {
                 type: 'text',
                 name: 'rec_nome_azienda',
-                label: 'Nome Azienda',
+                label: 'Nome azienda',
                 pro: true,
                 required: true,
                 page: 2
@@ -124,7 +124,7 @@ const language = {
             {
                 type: 'text',
                 name: 'rec_piva',
-                label: 'Partita Iva',
+                label: 'numero Parita IVA',
                 pro: true,
                 required: true,
                 page: 2
@@ -132,7 +132,7 @@ const language = {
             {
                 type: 'mail',
                 name: 'email',
-                label: 'Email',
+                label: 'email',
                 pro: false,
                 required: true,
                 page: 3
@@ -168,7 +168,7 @@ const language = {
         title: "Immagina, crea, vivi",
         description: [
             /* TESTO FORMATTABILE */
-            "Inquadra le **immagini** con la **camera del tuo Smartphone** e scopri i contenuti multimediali in **Realtà Aumentata**.",
+            "Encadre les **images** avec le **appareil photo de ton Smartphone** et decouvre   les contenus multimédia en **Realitée Aumentée**.",
             /* FINE TESTO FORMATTABILE */
         ],
         button: "INQUADRA",
