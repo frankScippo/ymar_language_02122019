@@ -24,7 +24,7 @@ const language = {
             home: "Home",
             contact: "Contacts",
             help: "About YouMeAR",
-            reset: "Refresh notices",
+            reset: "Update notices",
             resetApp: "Reset APP",
             reload: "Update page",
             privacy: "Privacy",
@@ -74,7 +74,7 @@ const language = {
         button: ["Next", "Complete the registration"],
         policyInteraction: "LEARN MORE...",
         policyTitle: "agree to general terms and conditions of service.",
-        policyDescription: "In order to complete your subscription to the website and have free access to the Community, please agree to general terms and conditions about services' use. During the subscription and the registration of your personal information, you must conferm you have come of age and you have read general conditions for services offered by the Website. Click here to confirm \"Accept\".",
+        policyDescription: "In order to complete your subscription to the website and have free access to the Community, please agree to general terms and conditions about services' use. During the subscription and the registration of your personal information, you must conferm you have come of age and you have read general conditions for services offered by the Website. Click here to confirm \"I agree\".",
         policyDialogTitle: "Read and agree to general terms and conditions",
         /* TESTO FORMATTABILE */
         policyDialogDescription: [
@@ -91,8 +91,8 @@ const language = {
                 "description3 puntoacapo description3.1 puntoacapo *ins*description3.2*ins* ... etc ..." // DESCRIZIONE DEL PARAGRAFO
             ],
         ],
-        policyDialogYep: 'Accept',
-        policyDialogNope: 'Refuse',
+        policyDialogYep: 'I agree',
+        policyDialogNope: 'I refuse',
         /* FINE TESTO FORMATTABILE */
         recTitle: "Have you an account?",
         actionRecTitle: "Procede with Login",
@@ -197,7 +197,7 @@ const language = {
     arcamera: {
         title: "Do you want to have fun wih Augmented Reality?",
         button1: "Home",
-        button2: "Stay here",
+        button2: "Stay on this page",
         button3: "Frame the Marker",
         button4: "How does it work?"
     },
@@ -266,28 +266,28 @@ const language = {
         },
         step3: {
             title: "Upload video",
-            subtitle: "Carica il video che vorresti in Realtà Aumentata.",
-            button: "Continua!",
-            video: "Carica video",
-            crop: "Ritaglia Video",
+            subtitle: "Upload the video choosen for Augmented Reality.",
+            button: "Next",
+            video: "Upload video",
+            crop: "Cut Video",
         },
         step4: {
-            title: "Inserisci il link",
-            subtitle: "Link per l'interazione quando il video finisce.",
-            button: "Continua!",
+            title: "Add link",
+            subtitle: "Link for the interaction when the video ends.",
+            button: "Next",
             placeholder: "Link URL",
             prefix: 'https://www.'
         },
         step5: {
-            title: "Imposta parametri",
-            subtitle: "Fai gli ultimi ritocchi sui parametri.",
-            button: "Carica marker",
+            title: "Set parameters",
+            subtitle: "Set final parameters.",
+            button: "Upload marker",
             setting: [
                 {
                     name: "Video Follow",
                     id: "videofollow",
-                    description: "Il VideoFollow ti permetterà di godere il video a schermo intero se il marker non è più inquadrato.",
-                    action: "ok, ho capito",
+                    description: "VideoFollow provides full screen video when the marker is not framed.",
+                    action: "I understood",
                     img: setting_img_1, // non cambiare
                     imgc: setting_img_1c, // non cambiare
                     defaultValue: true // non cambiare
@@ -295,8 +295,8 @@ const language = {
                 {
                     name: "Toolbar",
                     id: "toolbar",
-                    description: "La toolbar ti permette di tornare indietro anche su devices senza tasti fisici.",
-                    action: "ok, ho capito",
+                    description: "Toolbar allows to come back also using devices without physical buttons.",
+                    action: "I understood",
                     img: setting_img_2, // non cambiare
                     imgc: setting_img_2c, // non cambiare
                     defaultValue: false // non cambiare
@@ -304,8 +304,8 @@ const language = {
                 {
                     name: "Toolbar Up",
                     id: "toolbarup",
-                    description: "La toolbar Up sposta la toolbar in alto.",
-                    action: "ok, ho capito",
+                    description: "Toolbar Up moves up the toolbar.",
+                    action: "I understood",
                     img: setting_img_3, // non cambiare
                     imgc: setting_img_3c, // non cambiare
                     defaultValue: false // non cambiare
@@ -313,26 +313,25 @@ const language = {
             ]
         },
         step6: {
-            title: "Creazione Marker",
-            subtitle: "Il marker sta completando le fasi di creazione",
-            done_title: "Fatto!",
-            done_subtitle: "Il marker è pronto per essere inquadrato.",
-            error_title: "Qualcosa non va! :(",
-            error_subtitle: "Forse è un problema di connessione...",
-            title1: "non so che scrivere",
-            button: "Continua!",
-            gotogameratooltip: "Vai alla camera",
-            done_uptitle: "Fai TAP",
-            done_downtitle: "e vai alla camera!",
-            error_uptitle: "Errore",
-            error_downtitle: "Clicca sulla X per riprovare",
-            or: "oppure torna alla Home",
-            download: "scarica l'APP da",
-            download_title: "Marker Pronto.",
-            download_subtitle: "apri YMAR oppure",
+            title: "Creation of the Marker",
+            subtitle: "The creation of the marker will be available in few minuts",
+            done_title: "Done!",
+            done_subtitle: "The marker is ready for the frame.",
+            error_title: "Something goes wrong :(",
+            error_subtitle: "It may be a connection issue...",
+            button: "Next",
+            gotogameratooltip: "Use camera",
+            done_uptitle: "TAP the screen",
+            done_downtitle: "and use the camera!",
+            error_uptitle: "Error",
+            error_downtitle: "Click on X to try again",
+            or: "or go back to the Home",
+            download: "dowload the APP from",
+            download_title: "Marker is ready.",
+            download_subtitle: "open YMAR or",
             link: [
                 {
-                    name: 'Apple Store',
+                    name: 'use Apple Store',
                     link: 'https://apps.apple.com/it/app/youmear/id1474981907'
                 },
                 {
@@ -346,88 +345,88 @@ const language = {
                 img: step1, // non cambiare
                 cover: step1c, // non cambiare
                 title: "Step 1",
-                subtitle: "Scegli la forma",
+                subtitle: "Choose the frame",
                 autorizzato: true,
-                description: "Seleziona la forma dell'immagine che caratterizzerà la TUA Realtà Aumentata"
+                description: "Select the frame choosen for YOUR Augmented Reality"
             },
             {
                 img: step2, // non cambiare
                 cover: step2c, // non cambiare
                 title: "Step 2",
-                subtitle: "Carica immagine",
+                subtitle: "Upload the image",
                 autorizzato: true,
-                description: "Seleziona l'immagine che vuoi rendere in Realtà Aumentata."
+                description: "Select the image choosen for Augmented Reality."
             },
             {
                 img: step3, // non cambiare
                 cover: step3c, // non cambiare
                 title: "Step 3",
-                subtitle: "Carica video",
+                subtitle: "Upload the video",
                 autorizzato: true,
-                description: "Seleziona il video da sovrapporre all'immagine."
+                description: "Select the video to overlap on the image."
             },
             {
                 img: step4, // non cambiare
                 cover: step4c, // non cambiare
                 title: "Step 4",
-                subtitle: "Gestisci impostazioni",
+                subtitle: "Settings",
                 autorizzato: false,
-                description: "Siamo quasi pronti caricare la tua Realtà Aumentata, inserisci il link per l'interazione e imposta i parametri del tuo marker."
+                description: "Your Augmented Reality is ready, add the link for the interaction and set the parameters of your marker."
             }
         ],
         tuts_index: {
-            title: 'Come funziona',
-            button: 'OK, HO CAPITO',
-            next: 'AVANTI',
-            hidden: 'Non mostrare più'
+            title: 'How it works',
+            button: 'I UNDERSTOOD',
+            next: 'NEXT',
+            hidden: 'Do not show this message again'
         }
     },
     app: {
         description: [
             /* TESTO FORMATTABILE */
-            "Con **YouMeAR** creare **immagini interattive** sarà **semplicissimo** grazie alla magia della **Realtà Aumentata**."
+            "With **YouMeAR** the creation of **interactive images** will be **extremely easy** thanks to the magic of **Augmented Reality**."
             /* FINE TESTO FORMATTABILE */
         ],
-        title: "Immagina, crea, vivi",
+        title: "Imagine, create, enjoy",
         /* TESTO FORMATTABILE */
-        title1: "**MODALITÀ AR:**",
-        title2: "**MODALITÀ MARKERLESS:**",
+        title1: "**AR MODALITY:**",
+        title2: "**MARKERLESS MODALITY:**",
         /* FINE TESTO FORMATTABILE */
     },
     listMarker: {
-        title: 'Lista Marker',
-        subtitle: 'Elenco dei tuoi marker',
-        more: 'Carica altri risultati...',
+        title: 'Marker List',
+        subtitle: 'Marker List',
+        more: 'Upload more results...',
         description: {
-            general1: 'Stato',
-            general2: 'Qualità',
-            general3: 'Caricato il',
-            stats1: 'Totali',
-            stats2: 'Questo mese',
-            stats3: 'Mese scorso',
-            stats4: 'Click sul link',
-            int_description1: 'Quante volte un utente ha cliccato sulla funzione "LINK".',
-            stats5: 'Schermo intero',
-            int_description2: 'Numero di visualizzazioni a schermo intero.',
-            checkout1: 'Inquadramenti rimanenti',
-            checkout2: 'Ore rimanenti',
-            int_checkout1: 'Numero di inquadramenti e/o ore rimanenti alla scadenza del marker.',
-            deleteMarker: 'Cancella Marker'
+            general1: 'Status',
+            general2: 'Quality',
+            general3: 'Upload on',
+            stats1: 'Total',
+            stats2: 'This month',
+            stats3: 'Last month',
+            stats4: 'Click on the link',
+            int_description1: 'How many times does a client click on "LINK" function.,
+            stats5: 'Full screen',
+            int_description2: 'Number of full screen views.',
+            checkout1: 'Residual frameworks',
+            checkout2: 'Residual hours',
+            int_checkout1: 'Number of residual frameworks and/or hour at the marker\'s deadline.',
+            deleteMarker: 'Delate Marker'
         },
-        details: "Dettagli",
-        view: "visualizza Immagine",
-        active: "Attiva",
-        deactive: "Disattiva",
-        delete: "Elimina",
-        enabled: 'Attivo',
-        disabled: 'Disattivo',
+        details: "Details",
+        view: "display Image",
+        active: "Turn on",
+        deactive: "Turn off",
+        delete: "Delate",
+        enabled: 'TUrned on',
+        disabled: 'Turned off',
         title_description: {
-            general: 'Info Generali',
-            recogs: 'Inquadramenti',
-            interaction: 'Statistiche',
-            checkout: 'Traffico residuo'
+            general: 'General Info',
+            recogs: 'Frameworks',
+            interaction: 'Statistics',
+            checkout: 'Residual traffic'
         },
-        noName: 'Senza Nome',
-        nothing: 'nessun marker ... '
+        noName: 'No name',
+        nothing: 'no marker ... '
     }
 };
